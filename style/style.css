@@ -1,0 +1,72 @@
+/* Estilo do corpo do documento */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo do cabeçalho */
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  /* Estilo dos contêineres de input */
+  .Textos div {
+    margin: 1rem 0;
+  }
+  
+  /* Estilo dos labels */
+  label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Estilo dos inputs */
+  input[type="inicial"],
+  input[type="taxa"],
+  input[type="parcelas"],
+  input[type="rendimento"] {
+    display: block;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.2s ease-in-out;
+  }
+  
+  /* Estilo do botão */
+  button {
+    display: block;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  /* Estilo do botão quando hover */
+  button:hover {
+    background-color: #0069d9;
+  }
+  
+  /* Estilo dos inputs quando hover e focus */
+  input[type="inicial"]:hover,
+  input[type="inicial"]:focus,
+  input[type="taxa"]:hover,
+  input[type="taxa"]:focus,
+  input[type="parcelas"]:hover,
+  input[type="parcelas"]:focus,
+  input[type="rendimento"]:hover,
+  input[type="rendimento"]:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
